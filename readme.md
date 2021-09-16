@@ -1,6 +1,10 @@
 # ディレクトリ作成・Node.jsプロジェクトとして初期化
 <!-- <img src="home.png"> -->
 
+# "/"ディレクトリとcontractsディレクトリ直下にnode_modulesをインストールしてください
+# contractsディレクトリ直下に.envを作成してください
+- INFURA_PROJECT_ID
+- PRIVATE_KEY
 
 > 参考資料:https://zenn.dev/cauchye/articles/ethereum-contract-helloworld-local  
 
@@ -255,7 +259,7 @@ eth_call
 
 # Ethereum コントラクト開発 Hello world テストネット
 
-> 参考資料:https://zenn.dev/cauchye/articles/ethereum-contract-helloworld-testnet
+> 参考資料:https://zenn.dev/cauchye/articles/ethereum-contract-helloworld-testnet  
 
 # node.jsで環境変数の設定方法
 
@@ -266,7 +270,7 @@ eth_call
 npm install dotenv --save
 ```
 - .envファイルを作成
-> .envファイルに格納したい変数を記述  
+> .envファイルに格納したい変数を記述   
 ```text
 INFURA_PROJECT_ID=****************
 RIVATE_KEY=****************
@@ -285,7 +289,7 @@ console.log(process.env.):
 
 - ファイルの作成
 
-> contracts/scripts/sample-script-without-hardhat.jsを作成
+> contracts/scripts/sample-script-without-hardhat.jsを作成  
 
 ```js
 const { ethers } = require("ethers");
